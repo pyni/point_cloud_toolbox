@@ -179,4 +179,9 @@ target_link_libraries(readpcdandfindmaxplaneanddotherotation
   ${PCL_LIBRARIES}
 )
  
-
+ add_executable(pointcloudtostl src/pointcloudtostl.cpp)
+target_link_libraries(pointcloudtostl
+  ${catkin_LIBRARIES} ${OpenCV_LIBS}
+  ${PCL_LIBRARIES}
+)
+ 
