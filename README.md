@@ -13,7 +13,7 @@ findmaxplane.cpp:This is to find the max plane for the point cloud with RANSAC a
 
 readpcdfromdepth.cpp:This is to read pcd file from the depth image
 
-pointcloudtostl.cpp:This is to convert pcd file into stl mesh
+pointcloudtostl.cpp:This is to convert ply file (the same with pcd) into stl mesh
 
 
 By pyni_sjtu
