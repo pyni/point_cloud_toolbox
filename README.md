@@ -15,6 +15,8 @@ readpcdfromdepth.cpp:This is to read pcd file from the depth image
 
 pointcloudtostl.cpp:This is to convert ply file (the same with pcd) into stl mesh
 
+automaticllyfindmaxplane.cpp：This is to automatically find the max plane and then turn the point cloud into that plane.
+
 
 By pyni_sjtu
 
