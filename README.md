@@ -17,6 +17,7 @@ pointcloudtostl.cpp:This is to convert ply file (the same with pcd) into stl mes
 
 automaticllyfindmaxplane.cpp：This is to automatically find the max plane and then turn the point cloud into that plane.
 
+readpcdandfindmaxplaneanddotherotation_and_automally.cpp:This is to automatically find the max plane and change the center of coordination to that plane
 
 By pyni_sjtu
 
