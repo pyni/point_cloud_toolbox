@@ -17,12 +17,7 @@ LINK_LIBRARIES( ${PCL_LIBRARY_DIRS} )
 ## is used, also find other catkin packages
 find_package(catkin REQUIRED COMPONENTS
   joint_state_publisher
-  moveit_core
-  moveit_msgs
-  moveit_planners_ompl
-  moveit_ros_move_group
-  moveit_ros_planning_interface
-  moveit_ros_visualization
+
   robot_state_publisher
    
   xacro
