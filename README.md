@@ -21,6 +21,8 @@ automaticllyfindmaxplane.cpp：This is to automatically find the max plane and t
 By pyni_sjtu
 
 
-python版本的话，直接用pypcd
+python版本的话：
+subscrib_point_cloud_python.py
+
 
 
