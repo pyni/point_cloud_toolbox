@@ -19,6 +19,10 @@ automaticllyfindmaxplane.cpp：This is to automatically find the max plane and t
 
 readpcdandfindmaxplaneanddotherotation_and_automally.cpp:This is to automatically find the max plane and change the center of coordination to that plane
 
+
+usingROSandfindmaxplaneanddotherotation_and_automally.cpp:This is to automatically find the max plane and change the center of coordination to that plane with ROS topic!
+
+
 By pyni_sjtu
 
 
