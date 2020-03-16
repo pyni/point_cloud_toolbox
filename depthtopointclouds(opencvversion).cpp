@@ -38,8 +38,7 @@ pcl::PointCloud<pcl::PointXYZRGBA>::Ptr scene_rgb (new pcl::PointCloud<pcl::Poin
                 depth.at<float>(r,c)=double(depth.at<float>(r,c))/1000.0;
                 cout << "============..." <<  depth.at<float>(r,c) << endl;
 
-
-                if(!(depth.at<float>(r,c)>0&&depth.at<float>(r,c)<1.5)){continue;}
+ 
                 double scene_z = double(depth.at<float>(r,c));
                 double scene_x = (c - camera_cx) * scene_z / camera_fx;
                 double scene_y = (r - camera_cy) * scene_z / camera_fy;
