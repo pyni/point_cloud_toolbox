@@ -22,6 +22,8 @@ readpcdandfindmaxplaneanddotherotation_and_automally.cpp:This is to automaticall
 
 usingROSandfindmaxplaneanddotherotation_and_automally.cpp:This is to automatically find the max plane and change the center of coordination to that plane with ROS topic!
 
+extract_subpoints_from_pointclouds.cpp: 从一个整体点云中，提取部分点云（很重要，用循环会很慢）
+
 depthtopointclouds(opencvversion).cpp：This is to generate depth image from pcd file　using opencv c++
 
 
