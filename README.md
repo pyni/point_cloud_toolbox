@@ -28,12 +28,15 @@ depthtopointclouds(opencvversion).cpp：This is to generate depth image from pcd
 
 
 
-
-By pyni_sjtu
-
-
 python版本的话：
 subscrib_point_cloud_python.py
+
+
+此外pcl姿态的一些命令也非常重要，如：
+1)各种meshe类型的转换：pcl_png2pcd，pcl_ply2pcd，pcl_ply2obj
+2)mesh的采样：pcl_mesh_sampling
+
+By pyni_sjtu
 
 
 
