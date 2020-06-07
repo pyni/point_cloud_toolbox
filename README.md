@@ -34,7 +34,7 @@ subscrib_point_cloud_python.py
 
 此外pcl姿态的一些命令也非常重要，如：
 1)各种meshe类型的转换：pcl_png2pcd，pcl_ply2pcd，pcl_ply2obj
-2)mesh的采样：pcl_mesh_sampling
+2)mesh的采样：pcl_mesh_sampling（pcl_mesh_sampling biaodingkuai.obj output.pcd -leaf_size 0.01）
 
 By pyni_sjtu
 
