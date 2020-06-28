@@ -35,7 +35,7 @@ python版本的话：
 第一种：
 subscrib_point_cloud_python.py
 第二种：
-realsense_readingpoindcloudsandsave.py（这个只针对realsense，且要装pyrealsense，按任意键可以采集）
+realsense_readingpoindcloudsandsave.py（这个只针对realsense，且只能用python3 且要装pyrealsense，按任意键可以采集）
  
 
 
