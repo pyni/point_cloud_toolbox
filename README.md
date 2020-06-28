@@ -1,4 +1,7 @@
 # point_cloud_depth_image_transform
+
+##c++ version
+
 transform between point cloud (pcd) and depth image
 
 This is the package compiled in ROS 
@@ -28,13 +31,19 @@ depthtopointclouds(opencvversion).cpp：This is to generate depth image from pcd
 
 
 此外pcl姿态的一些命令也非常重要，如：
+
 1)各种meshe类型的转换：pcl_png2pcd，pcl_ply2pcd，pcl_ply2obj
+
 2)mesh的采样：pcl_mesh_sampling（pcl_mesh_sampling biaodingkuai.obj output.pcd -leaf_size 0.01）
 
-python版本的话：
+##python version
+
 第一种：
+
 subscrib_point_cloud_python.py
+
 第二种：
+
 realsense_readingpoindcloudsandsave.py（这个只针对realsense，且只能用python3 且要装pyrealsense，按任意键可以采集）
 
 ![image](https://github.com/pyni/point_cloud_toolbox/blob/master/pic/Screenshot%20from%202020-06-28%2010-40-36.png) 
