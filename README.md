@@ -27,16 +27,15 @@ extract_subpoints_from_pointclouds.cpp: 从一个整体点云中，提取部分�
 depthtopointclouds(opencvversion).cpp：This is to generate depth image from pcd file　using opencv c++
 
 
-
-python版本的话：
-subscrib_point_cloud_python.py
-
-
 此外pcl姿态的一些命令也非常重要，如：
 1)各种meshe类型的转换：pcl_png2pcd，pcl_ply2pcd，pcl_ply2obj
 2)mesh的采样：pcl_mesh_sampling（pcl_mesh_sampling biaodingkuai.obj output.pcd -leaf_size 0.01）
 
-By pyni_sjtu
-
+python版本的话：
+第一种：
+subscrib_point_cloud_python.py
+第二种：
+realsense_readingpoindcloudsandsave.py（这个只针对realsense，且要装pyrealsense，按任意键可以采集）
+ 
 
 
