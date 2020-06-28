@@ -1,6 +1,6 @@
 # point_cloud_depth_image_transform
 
-##c++ version
+## c++ version
 
 transform between point cloud (pcd) and depth image
 
@@ -36,7 +36,7 @@ depthtopointclouds(opencvversion).cpp：This is to generate depth image from pcd
 
 2)mesh的采样：pcl_mesh_sampling（pcl_mesh_sampling biaodingkuai.obj output.pcd -leaf_size 0.01）
 
-##python version
+## python version
 
 第一种：
 
