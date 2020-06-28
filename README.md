@@ -36,5 +36,7 @@ python版本的话：
 subscrib_point_cloud_python.py
 第二种：
 realsense_readingpoindcloudsandsave.py（这个只针对realsense，且只能用python3 且要装pyrealsense，按任意键可以采集）
+
 ![image](https://github.com/pyni/point_cloud_toolbox/blob/master/pic/Screenshot%20from%202020-06-28%2010-40-36.png) 
 
+![image](https://github.com/pyni/point_cloud_toolbox/blob/master/pic/Screenshot%20from%202020-06-28%2010-40-55.png) 
