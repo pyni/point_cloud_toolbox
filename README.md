@@ -45,7 +45,8 @@ subscrib_point_cloud_python.py
 第二种：
 
 realsense_readingpoindcloudsandsave.py（这个只针对realsense，且只能用python3 且要装pyrealsense，按任意键可以采集）
-
+有些时候depth = geometry.Image(np.asanyarray(depth_frame.get_data()) 要改成下面这个:
+depth = geometry.Image(np.asanyarray(depth_frame.get_data()).astype(np.float32)/ 1000.0)
 ![image](https://github.com/pyni/point_cloud_toolbox/blob/master/pic/Screenshot%20from%202020-06-28%2010-40-36.png) 
 
 ![image](https://github.com/pyni/point_cloud_toolbox/blob/master/pic/Screenshot%20from%202020-06-28%2010-40-55.png) 
