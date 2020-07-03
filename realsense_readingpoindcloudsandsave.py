@@ -7,8 +7,8 @@ if __name__=="__main__":
     align = rs.align(rs.stream.color)
 
     config = rs.config()
-    config.enable_stream(rs.stream.depth, 640, 480, rs.format.z16, 6)
-    config.enable_stream(rs.stream.color, 640, 480, rs.format.rgb8, 6)
+    config.enable_stream(rs.stream.depth, 640, 480, rs.format.z16, 30)
+    config.enable_stream(rs.stream.color, 640, 480, rs.format.rgb8, 30)
     pipeline = rs.pipeline()
     profile = pipeline.start(config)
 
