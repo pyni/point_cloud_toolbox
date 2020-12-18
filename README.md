@@ -50,3 +50,7 @@ depth = geometry.Image(np.asanyarray(depth_frame.get_data()).astype(np.float32)/
 ![image](https://github.com/pyni/point_cloud_toolbox/blob/master/pic/Screenshot%20from%202020-06-28%2010-40-36.png) 
 
 ![image](https://github.com/pyni/point_cloud_toolbox/blob/master/pic/Screenshot%20from%202020-06-28%2010-40-55.png) 
+
+读取RGB并转化为pcd：
+
+read_rgb_depth_to_pcd.py
