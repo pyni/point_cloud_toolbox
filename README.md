@@ -42,6 +42,8 @@ depthtopointclouds(opencvversion).cpp：This is to generate depth image from pcd
 
 subscrib_point_cloud_python.py
 
+或者可以参见我之前写的这部分内容：https://github.com/pyni/RGBD_camera_ros_python.git
+
 第二种：
 
 realsense_readingpoindcloudsandsave.py（这个只针对realsense，且只能用python3 且要装pyrealsense，按任意键可以采集）
@@ -54,6 +56,7 @@ depth = geometry.Image(np.asanyarray(depth_frame.get_data()).astype(np.float32)/
 读取RGB并转化为pcd：
 
 read_rgb_depth_to_pcd.py
+
 
 
 ## 直接命令形式：
