@@ -54,3 +54,8 @@ depth = geometry.Image(np.asanyarray(depth_frame.get_data()).astype(np.float32)/
 读取RGB并转化为pcd：
 
 read_rgb_depth_to_pcd.py
+
+
+## 直接命令形式：
+
+rosrun pcl_ros pointcloud_to_pcd input:=/camera/depth/color/points
