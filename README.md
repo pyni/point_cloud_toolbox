@@ -55,8 +55,8 @@ depth = geometry.Image(np.asanyarray(depth_frame.get_data()).astype(np.float32)/
 
 读取RGB并转化为pcd：
 
-read_rgb_depth_to_pcd.py
-
+read_rgb_depth_to_pcd.py 
+(这里需要补充一点就是相机标定方面/camera/depth/color/points和{/camera/color/image_raw，/camera/aligned_depth_to_color/image_raw}还原的深度信息 感觉存在一个偏置，因为后者的这个内参（或者说realsense 各种camera_info的内参）是相对于camera_color_optical_frame的 ，但是/camera/depth/color/points是相对深度相机的link发布的，而/camera/color/image_raw和/camera/aligned_depth_to_color/image_raw是相对于RGB相机的link发布的，所以他们之间相差了一个转换，而read_rgb_depth_to_pcd.py 可以直接将/camera/color/image_raw生成的RGB图和/camera/aligned_depth_to_color/image_raw生成的深度图融合,但需要输入内参 )
 
 
 ## 直接命令形式：
